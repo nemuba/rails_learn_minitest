@@ -1,0 +1,10 @@
+# 'name' should generally be the same as the code repo name.
+name: learn_minitest
+packages:
+- path: app/controllers
+- path: app/models
+- path: app/jobs
+- path: app/helpers
+
+- gem: activerecord
+- gem: rubocop-rails
